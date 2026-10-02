@@ -1,0 +1,32 @@
+<!-- Bretado Quiroz Lia Natalia 24308051281111 -->
+<!DOCTYPE html> <!-- Con esto le decimos al navegador que estamos usando HTML5 -->
+<html lang="en"> <!-- Lenguaje de la pagina -->
+<head> <!-- Configuracion de la pagina, lo que no se ve en pantalla -->
+<meta charset="UTF-8"> <!-- Esta linea permite al navegador agregar caracteres especiales -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Es para que la pagina se adapte a diferentes pantallas -->
+<title>Formularios en HTML</title> <!-- Titulo en la pestaña de la ventana -->
+<!-- Libreria de iconos en linea -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> <!-- Enlaza estilos e iconos externos -->
+
+</head> <!-- Cerramos el encabezado -->
+<body> <!-- Cuerpo de la pagina -->
+
+<h2>Formulario con limitaciones</h2> <!-- Subtitulo -->
+<form action="" method="post"> <!-- Inicia formulario -->
+Ingresa tu nombre: <!-- Texto descriptivo -->
+<!-- Desahbilitacion de campo -->
+<input type="text" name="nombre" disabled><br> <!-- Campo inhabilitado que no permite escribir ni interactuar -->
+<!-- Limitacion de caracteres -->
+Contraseña: <!-- Texto descriptivo -->
+<input type="password" name="pass" maxlength="5"><br> <!-- Campo de contraseña limitado a 5 caracteres -->
+<!-- Solo lectura -->
+Comentarios: <!-- Texto descriptivo -->
+<textarea name="comentarios" readonly> <!-- Caja multilinea que solo permite leer y no editar -->
+
+Este es mi comentario y no se puede borrar
+</textarea><br> <!-- Fin de caja multilinea y salto de linea -->
+</form> <!-- Fin del formulario -->
+
+</body> <!-- Cerramos el cuerpo -->
+</html> <!-- Cerramos el documento HTML -->
