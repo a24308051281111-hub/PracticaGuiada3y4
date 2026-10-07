@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Soporte Técnico</title>
+    <style>
+        h1 {
+            background-color: lightpink;
+            color: white;
+            border: 3px solid lightcoral;
+            font-family: "Times New Roman", Times, serif;
+            padding: 30px;
+            text-align: center;
+        }
+
+        p, ul, form {
+            color: brown;              
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        footer {
+            text-align: center;
+            border: 3px solid lightcoral;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Soporte Técnico de Equipo de Cómputo</h1>
+
+    <p align="center">
+        <a href="SoporteDeComputo.html">Inicio</a> | 
+        <a href="servicios.html">Servicios</a> | 
+        <a href="equipos.html">Equipos</a> | 
+        <a href="contacto.html">Contacto</a>
+    </p>
+
+    <hr>
+
+    <h2>Contacto y Solicitud de Soporte</h2>
+    <p>Llena los siguientes datos para brindarte una atención rápida y adecuada a tu equipo.</p>
+
+    <form>
+        <h3>Datos del Cliente</h3>
+        <p>
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </p>
+        <p>
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="email" id="correo" name="correo">
+        </p>
+        <p>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono">
+        </p>
+
+        <h3>Datos del Equipo y Servicio</h3>
+        <p>
+            <label for="tipo_equipo">Tipo de Equipo:</label><br>
+            <select id="tipo_equipo" name="tipo_equipo">
+                <option value="laptop">Computadora Portátil (Laptop)</option>
+                <option value="escritorio">Computadora de Escritorio (PC)</option>
+                <option value="impresora">Impresora</option>
+                <option value="otro">Otro dispositivo</option>
+            </select>
+        </p>
+        <p>
+            <label for="marca_modelo">Marca y Modelo (opcional):</label><br>
+            <input type="text" id="marca_modelo" name="marca_modelo">
+        </p>
+        <p>
+            <label for="servicio">Servicio Requerido:</label><br>
+            <select id="servicio" name="servicio">
+                <option value="preventivo">Mantenimiento Preventivo y Correctivo</option>
+                <option value="virus">Eliminación de Virus y Malware</option>
+                <option value="software">Instalación y Configuración de Software</option>
+                <option value="hardware">Diagnóstico y Reparación de Hardware</option>
+                <option value="respaldo">Respaldo y Recuperación de Datos</option>
+                <option value="otro">Otro servicio / Diagnóstico general</option>
+            </select>
+        </p>
+        <p>
+            <label for="mensaje">Detalle del Mantenimiento o Falla:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar Solicitud">
+        </p>
+    </form>
+
+    <hr>
+
+    <h2>Información de Atención</h2>
+    <p><b>Horario:</b> Lunes a Viernes de 8:00 AM a 6:00 PM</p>
+    <p><b>Lugar:</b> Laboratorio de Programación</p>
+
+    <hr>
+
+    <footer>
+        <p>Lia Natalia Bretado Quiroz</p>
+        <p>24308051281111</p>
+        <p>5to J</p>
+        <p>Programación</p>
+    </footer>
+
+</body>
+
+</html>
